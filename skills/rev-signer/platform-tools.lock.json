@@ -1,0 +1,21 @@
+{
+  "schema": "reverse-skills/toolchain-lock-v1",
+  "tool": "Android SDK Platform Tools / ADB",
+  "version": "35.0.2-12147458",
+  "official_docs": "https://developer.android.com/tools/releases/platform-tools",
+  "mutable_windows_download": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+  "tested_executable": {
+    "name": "adb.exe",
+    "size": 5969000,
+    "sha256": "0e606318957baac81b997ccd8ee4bcdff79964a9921da07c716aea3e8d856af7"
+  },
+  "tested_device": {
+    "model": "Xiaomi MI 9 SE",
+    "device": "grus",
+    "android_release": "11",
+    "api": 30,
+    "abi": "arm64-v8a",
+    "root_required": true,
+    "install_contract": "adb push to /data/local/tmp, then adb shell su -c pm install"
+  }
+}

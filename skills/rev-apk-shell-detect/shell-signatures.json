@@ -1,0 +1,92 @@
+{
+  "schema": "rev-apk-shell-detect/signatures-v1",
+  "families": [
+    {
+      "id": "qihoo-360-jiagu",
+      "display_name": "360 Jiagu",
+      "category": "common",
+      "apkid_aliases": ["360", "qihoo", "jiagu"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libjiagu.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "libjiagu_a64.so", "weight": 7, "unique": true},
+        {"kind": "dex_string", "value": "Lcom/qihoo/util/StubApplication;", "weight": 6, "unique": true},
+        {"kind": "dex_string", "value": "Lcom/stub/StubApp;", "weight": 5, "unique": false}
+      ]
+    },
+    {
+      "id": "tencent-legu",
+      "display_name": "Tencent Legu",
+      "category": "enterprise",
+      "apkid_aliases": ["tencent legu", "legu", "tencent stub shell"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libshell-super.2019.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "libshellx-super.2019.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "libmix.so", "weight": 2, "unique": false},
+        {"kind": "dex_string", "value": "Lcom/tencent/StubShell/TxAppEntry;", "weight": 6, "unique": true}
+      ]
+    },
+    {
+      "id": "bangcle-secneo",
+      "display_name": "Bangcle / SecNeo",
+      "category": "enterprise",
+      "apkid_aliases": ["bangcle", "secneo", "sec shell"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libDexHelper.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "libDexHelper-x86.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "libSecShell.so", "weight": 7, "unique": true},
+        {"kind": "dex_string", "value": "Lcom/secneo/apkwrapper/ApplicationWrapper;", "weight": 6, "unique": true},
+        {"kind": "dex_string", "value": "Lcom/secshell/shellwrapper/ShellApplication;", "weight": 6, "unique": true}
+      ]
+    },
+    {
+      "id": "ijiami",
+      "display_name": "Ijiami",
+      "category": "common",
+      "apkid_aliases": ["ijiami", "i jiami"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libexec.so", "weight": 4, "unique": false},
+        {"kind": "entry_basename", "value": "libexecmain.so", "weight": 7, "unique": true},
+        {"kind": "entry_basename", "value": "ijiami.dat", "weight": 7, "unique": true},
+        {"kind": "dex_string", "value": "Ls/h/e/l/l/S;", "weight": 6, "unique": true}
+      ]
+    },
+    {
+      "id": "netease-yidun",
+      "display_name": "NetEase YiDun",
+      "category": "enterprise",
+      "apkid_aliases": ["netease yidun", "yidun", "netease protect"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libapp.so", "weight": 2, "unique": false},
+        {"kind": "entry_basename", "value": "libnesec.so", "weight": 7, "unique": true}
+      ]
+    },
+    {
+      "id": "naga",
+      "display_name": "Naga",
+      "category": "common",
+      "apkid_aliases": ["naga", "nagain"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libddog.so", "weight": 7, "unique": true}
+      ]
+    },
+    {
+      "id": "netqin",
+      "display_name": "NetQin",
+      "category": "common",
+      "apkid_aliases": ["netqin", "nqshield"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libnqshieldx86.so", "weight": 7, "unique": true}
+      ]
+    },
+    {
+      "id": "baidu-protect",
+      "display_name": "Baidu Protect",
+      "category": "common",
+      "apkid_aliases": ["baidu protect", "baiduprotect"],
+      "markers": [
+        {"kind": "entry_basename", "value": "libbaiduprotect.so", "weight": 7, "unique": true},
+        {"kind": "dex_string", "value": "Lcom/baidu/protect/StubApplication;", "weight": 6, "unique": true}
+      ]
+    }
+  ]
+}

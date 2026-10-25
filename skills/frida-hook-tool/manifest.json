@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "build_id": "2026-10-24-318834a5024f",
+  "built_at_utc": "2026-10-24T10:06:18Z",
+  "source": {
+    "project": "rt-gum-sdk",
+    "git_commit": "39fe2a98404f7928764bdb6311b29dfaee07468f",
+    "working_tree": "dirty",
+    "stage1_cpp_sha256": "318834a5024fa56fbca927799a4f64ec25df8d3b4c90d09d1356544e92eaed0d",
+    "build_manager_ps1_sha256": "cbc9ffe3614ae43e9deacb49a70d0bdc24cd3ff788ee1700bbf61f20426c4d96"
+  },
+  "toolchain": {
+    "kernelpatch": "0.13.9",
+    "frida_gum_devkit": "17.22.2",
+    "kpm_ndk": "r29",
+    "userspace_ndk": "r25c",
+    "android_sdk_platform": "35"
+  },
+  "device_profile": {
+    "product": "shiba",
+    "abi": "arm64-v8a",
+    "sdk": "36",
+    "kernel": "6.1.145-android14-11-gfa1d6308d1fe-ab14691759",
+    "validated_fingerprint": "google/shiba/shiba:16/CP1A.260405.005/15001963:user/release-keys"
+  },
+  "remote_dir": "/data/local/tmp/rtgum-stage1-pixel8",
+  "device_files": [
+    "libmako-ghost.so",
+    "librtgum-gum-ghost.so",
+    "librtgum-lua-helper.so",
+    "rtgum-stage1-ctl",
+    "rtgum-stage1-payload.so",
+    "rtgum-stage1.kpm",
+    "rtgum-stage2-daemon.so",
+    "rtgum-stage2-dbi-stalker.ghm",
+    "rtgum-stage2-dbi.ghm",
+    "rtgum-stage2-dex.ghm",
+    "rtgum-stage2-gtrace.ghm",
+    "rtgum-stage2-gumlua.ghm",
+    "rtgum-stage2-interceptors.ghm",
+    "rtgum-stage2-jnicode-java.ghm",
+    "rtgum-stage2-jnicode-mako.ghm",
+    "rtgum-stage2-jnicode.ghm",
+    "rtgum-stage2-lab-mako.ghm",
+    "rtgum-stage2-lifecycle.ghm",
+    "rtgum-stage2-module.ghm",
+    "rtgum-stage2-module2.ghm",
+    "rtgum-stage2-multitrace.ghm",
+    "rtgum-stage2-symbol.ghm",
+    "rtgum-stage2-zygote-payload.so"
+  ],
+  "files": {
+    "libmako-ghost.so": {
+      "bytes": 2124184,
+      "sha256": "92826e6a2d1c362d6853abf72cc47d5edda93287b8c04ae738a304c66a328f88"
+    },
+    "librtgum-gum-ghost.so": {
+      "bytes": 11375408,
+      "sha256": "48025b275ce4a781e6caa90405dc7789a35d580c94f50a9095000bb3894217c1"
+    },
+    "librtgum-lua-helper.so": {
+      "bytes": 1635136,
+      "sha256": "f0fe6a74bbd9115b0f7478097547844b3deef2787a154351679285d1b3adca13"
+    },
+    "rtgum-manager-debug.apk": {
+      "bytes": 553326,
+      "sha256": "af989f275ddc46e05deec718de276fe8ced809d56d83556423f1d25630b1e609"
+    },
+    "rtgum-stage1-ctl": {
+      "bytes": 4787096,
+      "sha256": "76ca902dd70e0069c4bd8025066b2bec031d6a37fb9ba7291ec656579a851e17"
+    },
+    "rtgum-stage1-payload.so": {
+      "bytes": 3800,
+      "sha256": "9a73985b8d9901aac7b6aeea0d45467305da8169486195334ed282753398888a"
+    },
+    "rtgum-stage1.kpm": {
+      "bytes": 3431264,
+      "sha256": "5e28f7d29b821feb649dc25ec05e2eaf845d78ba5b930b878b8670529b8dec36"
+    },
+    "rtgum-stage2-daemon.so": {
+      "bytes": 287200,
+      "sha256": "e7b00b54569581ad997032692f4f0d59dd4be370084cd7cefdd81dde131f51a3"
+    },
+    "rtgum-stage2-dbi-stalker.ghm": {
+      "bytes": 19008,
+      "sha256": "fd7379a48a562d3ffc47c4320ecfe6a970031db2c14f51cb6122bf19a8222cc3"
+    },
+    "rtgum-stage2-dbi.ghm": {
+      "bytes": 17520,
+      "sha256": "0e553e79e71b5b964c8ddaea6b28fe84d8579c820ebe1c4c8ee84d02d1968bf4"
+    },
+    "rtgum-stage2-dex.ghm": {
+      "bytes": 8048,
+      "sha256": "4466649c13b2f5aa126c71781058576fb6111cd3f3606a78622cc638a5792f8f"
+    },
+    "rtgum-stage2-gtrace.ghm": {
+      "bytes": 5792,
+      "sha256": "f25f7d27b5bc69199b78b65671b076c8be00be5066df8855451aea028ebbf89c"
+    },
+    "rtgum-stage2-gumlua.ghm": {
+      "bytes": 4872,
+      "sha256": "8d34e9bbea70bc99d8c14fc099a11bd8b75b659c453cfa81c6af1417386ea835"
+    },
+    "rtgum-stage2-interceptors.ghm": {
+      "bytes": 9120,
+      "sha256": "1c1a1ba34ed4dffbbfaa596a5be0e909f97895a9a005fe1f50753de76478a254"
+    },
+    "rtgum-stage2-jnicode-java.ghm": {
+      "bytes": 4008,
+      "sha256": "c66b3e4569427bd86fc6d7102341e15478278e514439b4af1a9cf484ef31dc1b"
+    },
+    "rtgum-stage2-jnicode-mako.ghm": {
+      "bytes": 4264,
+      "sha256": "7d8fb16f4ab19689e4e4424f23e3ea6ddf1c57324ac687ef2a0a14dd17a1f222"
+    },
+    "rtgum-stage2-jnicode.ghm": {
+      "bytes": 4016,
+      "sha256": "646faa97158436290a35a118f5c5955e1094418f82cdc246ddd05ef0cb277145"
+    },
+    "rtgum-stage2-lab-mako.ghm": {
+      "bytes": 5264,
+      "sha256": "b46ba18ddd1e703f5bd2080405d9a594445922bb4070cc4468c050f552361139"
+    },
+    "rtgum-stage2-lifecycle.ghm": {
+      "bytes": 10904,
+      "sha256": "87d33bde27779d5d4f9c45c2853b1efecb625ce6ddad9cd719ec042f3343f257"
+    },
+    "rtgum-stage2-module.ghm": {
+      "bytes": 3000,
+      "sha256": "675a750a98069860f4a716c35e9174b13ebe0717dd982be1c872b9878fc4cb2e"
+    },
+    "rtgum-stage2-module2.ghm": {
+      "bytes": 3008,
+      "sha256": "d072e0b34578dcec137ef166ace9c6fb920f1a8c083d4e2a2bd4f6774485cdc4"
+    },
+    "rtgum-stage2-multitrace.ghm": {
+      "bytes": 9240,
+      "sha256": "1d205ebe2ea5b6221adf7558fb118df67ca026949346ea32e3d85dc4d173ea6b"
+    },
+    "rtgum-stage2-symbol.ghm": {
+      "bytes": 4664,
+      "sha256": "05a46414fde03863ebdb314e5927234e9d02ef623e9e18d2dc0041d7c1e19493"
+    },
+    "rtgum-stage2-zygote-payload.so": {
+      "bytes": 3592,
+      "sha256": "83937693e9e51571c2274426fcf54165f35bc7184a40f8ed591cf5b0161658fb"
+    }
+  }
+}

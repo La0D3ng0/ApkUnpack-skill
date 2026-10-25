@@ -1,0 +1,22 @@
+{
+  "schema": "reverse-skills/toolchain-lock-v1",
+  "tool": "Android SDK Build Tools",
+  "version": "36.0.0",
+  "official_docs": "https://developer.android.com/tools/releases/build-tools",
+  "repository_manifest": "https://dl.google.com/android/repository/repository2-3.xml",
+  "build_tools_windows": {
+    "url": "https://dl.google.com/android/repository/build-tools_r36_windows.zip",
+    "size": 58699878,
+    "sha1": "f16ccffd34de8790dede813a6c7d8e2c11a27b50"
+  },
+  "command_line_tools_windows": {
+    "url": "https://dl.google.com/android/repository/commandlinetools-win-15859902_latest.zip",
+    "sha256": "90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a"
+  },
+  "installed_files": {
+    "zipalign.exe": "c503c7da88bd4f6cddbcc8d3febd41e1e5022a525147f05f8caf4602353409c0",
+    "apksigner.bat": "549dd0028b0314a5112d6b56e2de7800e713f297da4508b513a735546e52ce38",
+    "lib/apksigner.jar": "3716d9311e55d2b0918a2fd9d54ba9e406c5f6abeea700b287f11259bc163dec",
+    "source.properties": "7dee6632e9ad6cb111da2bb99d747211e27927061b1276d040bb1d71fded5ebb"
+  }
+}

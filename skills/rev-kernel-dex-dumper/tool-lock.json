@@ -1,0 +1,22 @@
+{
+  "schema": "rev-kernel-dex-dumper/tool-lock-v1",
+  "resolved_at": "2026-08-14",
+  "tools": {
+    "akane-injector": {
+      "repository": "https://github.com/aimardcr/akane-injector",
+      "default_branch": "main",
+      "commit": "8a80056e7ec80932d8896ac20bb0c7ab19408ffc",
+      "commit_date": "2026-06-03T21:29:03Z",
+      "license": "NOASSERTION",
+      "redistribute": false
+    },
+    "jdex2": {
+      "repository": "https://github.com/J5now/JDex2",
+      "default_branch": "master",
+      "commit": "4d869c8f9d47780d73dcddeb8c5da4ac84452e52",
+      "commit_date": "2026-04-22T06:14:57Z",
+      "license": "NOASSERTION",
+      "redistribute": false
+    }
+  }
+}

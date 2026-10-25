@@ -1,0 +1,46 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development
+.env
+.env.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+docs/
+
+# Local reverse-engineering artifacts
+/apk-analysis/
+/artifacts/
+/keys/
+/skills/frida-hook-tool/*superkey*.txt
+*.apk
+!skills/frida-hook-tool/bin/*.apk
+*.apks
+*.aab
+*.dex
+*.so
+!skills/frida-hook-tool/bin/*.so
+*.p12
+*.jks
+*.keystore
+*.passwd
+*.idb
+*.i64
+*.log
+
+# Per-APK analysis workspaces (keep work/README.md tracked)
+/work/*.apk_work/
