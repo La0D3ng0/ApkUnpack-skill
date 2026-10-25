@@ -106,11 +106,6 @@ Akane 注入 native `.so`，JDex2 原本依赖 Xposed/LSPosed，因此二者结�
 
 **主要和核心业务逻辑确实还原、可读且可核验，才可将抽取型壳脱壳标为完成；否则标为部分恢复。** 报告必须沿样本实际业务调用链展示关键方法的原占位与恢复后 CodeItem 对应关系、可读的判断分支、输入输出和业务副作用；不能以 DEX 头部有效、类数量或打开 JADX 成功代替业务验收。对仍为 JNI/Native 桥接或 JADX 无法反编译的关键方法，明确写出未恢复范围和数量，不能宣称这些方法的 Java 语义已还原。详见 [中文版复用流程](skills/rev-gen2-extracted-dex-unpack/references/extracted-dex.zh-CN.md)。
 
-## 安装
-
-```bash
-npx skills add P4nda0s/reverse-skills
-```
 
 ## 许可证
 

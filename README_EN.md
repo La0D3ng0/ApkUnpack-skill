@@ -106,12 +106,6 @@ Place recovered `classes.dex`, `classes2.dex`, and later DEX files at the result
 
 **Mark an extracted-method shell unpacking complete only when the app's main and core business logic is restored, readable, and verifiable; otherwise label it partial recovery.** Follow real business call chains and show the original placeholder to restored CodeItem mapping, readable decisions, inputs, outputs, and effects. Valid headers, class counts, or a successful JADX launch alone do not establish this. Quantify key methods that still dispatch to JNI/native code or fail Java decompilation and state their unrecovered scope. See the [Chinese workflow](skills/rev-gen2-extracted-dex-unpack/references/extracted-dex.zh-CN.md).
 
-## Installation
-
-```bash
-npx skills add P4nda0s/reverse-skills
-```
-
 ## License
 
 MIT
