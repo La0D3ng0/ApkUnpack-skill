@@ -1,8 +1,8 @@
 English | [中文](README.md)
 
-# Reverse Engineering Skills
+# **APK Reverse Engineering and Unpacking Skills**
 
-Reverse-engineering Skills for authorized security research. The repository keeps the original lightweight layout: each module is entered through `skills/<name>/SKILL.md`, with only necessary scripts, data, or binaries placed beside it.Unpacking is currently supported for both first-generation shells and second-generation extractable shells, and has been verified on multiple APKs.
+APK Reverse Engineering and Unpacking Skills for authorized security research. The repository keeps the original lightweight layout: each module is entered through `skills/<name>/SKILL.md`, with only necessary scripts, data, or binaries placed beside it.Unpacking is currently supported for both first-generation shells and second-generation extractable shells, and has been verified on multiple APKs, featuring a built-in, in-house-developed Android kernel ‘invisible’ hooking tool that can bypass wrapper detection.
 
 There is no central unpacking orchestrator. Choose the workflow from the sample's structure, especially whether it releases a whole DEX or extracts method bodies. Acquisition, emulation, and rebuilding tools can still support the selected workflow.
 
